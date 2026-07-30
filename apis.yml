@@ -1,22 +1,73 @@
 aid: laelaps-ai
-name: Laelaps Ai
-description: Laelaps Ai is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Laelaps AI
+description: 'Laelaps AI is a Zurich- and UK-based autonomous security company building
+  what it calls "the brain behind security" — a hardware-agnostic, fail-safe autonomy
+  layer that unifies aerial, ground, and stationary robots together with a site''s
+  existing fixed cameras into a single coordinated monitoring force. The platform pairs
+  field foundational models and visual intelligence with multi-agent coordination so
+  that critical infrastructure and commercial and defense sites can be watched continuously,
+  incidents detected and triaged automatically, and robots dispatched to observe and
+  deter without a human operator watching every screen. Founded by Dr. Sophia Belser
+  (CEO), Dr. Maria "Mania" Stamatopoulou (CRO), and Rokas Bendikas (CTO), the company
+  is backed by Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA
+  BIC Switzerland, and NVIDIA Inception. As of this profile Laelaps AI publishes a
+  three-page corporate website and no public developer surface — no documentation,
+  API reference, SDKs, or machine-readable API artifacts were found.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://laelaps.ai/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/laelaps-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Robotics
+- Autonomous Systems
+- Security
+- Surveillance
+- Computer Vision
+- Defense
+- Physical Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/laelaps-ai-domain-security.yml
+- type: Website
+  url: https://laelaps.ai/
+- type: TermsOfService
+  url: https://laelaps.ai/legal.html
+- type: PrivacyPolicy
+  url: https://laelaps.ai/privacy.html
+- type: GitHubOrganization
+  url: https://github.com/LaelapsAI
+- type: LinkedIn
+  url: https://www.linkedin.com/company/laelaps-ai/
+- type: LLMsTxt
+  url: llms/laelaps-ai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

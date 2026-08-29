@@ -13,6 +13,17 @@ description: 'Laelaps AI is a Zurich- and UK-based autonomous security company b
   BIC Switzerland, and NVIDIA Inception. As of this profile Laelaps AI publishes a
   three-page corporate website and no public developer surface — no documentation,
   API reference, SDKs, or machine-readable API artifacts were found.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

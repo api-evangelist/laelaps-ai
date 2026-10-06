@@ -64,12 +64,12 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Laelaps AI builds a hardware-agnostic, fail-safe autonomous security layer that unifies aerial, ground, and stationary robots with a site's existing fixed cameras into one coordinated monitoring force — combining field foundational models, visual intelligence, and multi-agent coordination for continuous surveillance, rapid response, and autonomous dispatch across commercial and defense sites.
+Laelaps AI builds field intelligence for critical assets: LEA, a system that combines autonomous embodied agents, video monitoring agents and sensing systems with a control center layer that turns their data into actionable intelligence for human operators securing and maintaining critical sites.
 
 - Website: https://laelaps.ai/
-- Legal entity: Laelaps AI Ltd (UK company no. 15375693), with operations in Zurich, Switzerland
-- Founders: Dr. Sophia Belser (CEO), Dr. Maria Stamatopoulou (CRO), Rokas Bendikas (CTO)
-- Backed by: Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA BIC Switzerland, NVIDIA Inception
+- Legal entity: Laelaps AI Ltd (UK company no. 15375693); based in Switzerland and operating across Europe
+- Founders: Dr. Sophia Belser (CEO), Dr. Mania Stamatopoulou (CRO), Rokas Bendikas (CTO)
+- Backed by: Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA BIC, NVIDIA Inception
 
 ## API surface
 
@@ -80,4 +80,4 @@ identity plus what could be honestly probed:
 
 - `security/laelaps-ai-domain-security.yml` — probed TLS/HSTS/DNS posture (TLS 1.3, HSTS 2y, CAA, SPF, DMARC `p=reject`)
 - `well-known/laelaps-ai-well-known.yml` — recorded `/.well-known/` probe (all 404)
-- `llms/laelaps-ai-llms.txt` — generated llms.txt for the company profile
+- `llms/laelaps-ai-llms.txt` — the provider's own llms.txt (https://laelaps.ai/llms.txt), saved verbatim 2026-10-06

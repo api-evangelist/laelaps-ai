@@ -1,18 +1,15 @@
 aid: laelaps-ai
 name: Laelaps AI
-description: 'Laelaps AI is a Zurich- and UK-based autonomous security company building
-  what it calls "the brain behind security" — a hardware-agnostic, fail-safe autonomy
-  layer that unifies aerial, ground, and stationary robots together with a site''s
-  existing fixed cameras into a single coordinated monitoring force. The platform pairs
-  field foundational models and visual intelligence with multi-agent coordination so
-  that critical infrastructure and commercial and defense sites can be watched continuously,
-  incidents detected and triaged automatically, and robots dispatched to observe and
-  deter without a human operator watching every screen. Founded by Dr. Sophia Belser
-  (CEO), Dr. Maria "Mania" Stamatopoulou (CRO), and Rokas Bendikas (CTO), the company
-  is backed by Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA
-  BIC Switzerland, and NVIDIA Inception. As of this profile Laelaps AI publishes a
-  three-page corporate website and no public developer surface — no documentation,
-  API reference, SDKs, or machine-readable API artifacts were found.'
+description: 'Laelaps AI builds field intelligence for critical assets. Its system, LEA, combines autonomous
+  embodied agents (AI-powered robots for site perimeter coverage), video monitoring agents that work on existing
+  camera infrastructure, and fixed and mobile sensing systems under a control center layer that fuses their data
+  into actionable intelligence for human operators; the company says one operator can then protect and operate
+  multiple sites 24/7. Target sites include military bases, power grids, data centers, factories and hospitals,
+  and the control layer supports encrypted, air-gapped on-premises hosting. Founded in 2025 by Dr. Sophia Belser
+  (CEO), Dr. Mania Stamatopoulou (CRO) and Rokas Bendikas (CTO), Laelaps AI is based in Switzerland and operates
+  across Europe; its site lists Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA BIC and NVIDIA
+  Inception as backers. It publishes a corporate website and an llms.txt but no public developer surface - no
+  documentation, API reference, SDKs or machine-readable API artifacts.'
 deliveryModel:
   model: saas
   open_source: false
@@ -45,7 +42,7 @@ x-tier: stub
 x-tier-reason: no-public-api-surface
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -83,11 +80,24 @@ common:
   url: https://www.linkedin.com/company/laelaps-ai/
 - type: LLMsTxt
   url: llms/laelaps-ai-llms.txt
+  name: Laelaps AI llms.txt (https://laelaps.ai/llms.txt)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-correction-request:
+  requested: '2026-10-06'
+  source:
+  - _messages/2026-10/2026-10-06-fastmail-38567-love-what-youre-doing-have-a-quick-ask-though.md
+  request: 'Erik Litschel (erik@laelaps.ai), 2026-10-06: the profile was captured in July before the rebrand and still calls Laelaps AI
+    "the brain behind security"; they now publish their own llms.txt - re-run the profile so it picks that up.'
+  applied: '2026-10-06'
+  applied_note: 'Verified live 2026-10-06: https://laelaps.ai/llms.txt 200 text/plain (4,409 bytes; an invented path returns a real 404).
+    The previous llms/laelaps-ai-llms.txt was a pipeline-generated summary (laelaps.ai/llms.txt was 404 in July) - replaced with the
+    provider''s file verbatim. Description rewritten from the current homepage and llms.txt (field intelligence for critical assets, LEA,
+    based in Switzerland, operates across Europe, founded 2025); founders and backers re-checked on the homepage, legal entity on
+    /legal.html. README body and well-known notes updated to match. Still no public API surface.'
 x-enrichment:
   date: '2026-07-19'
   status: backfilled

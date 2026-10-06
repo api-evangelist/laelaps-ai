@@ -3,7 +3,7 @@ method: searched
 source: live probe of https://laelaps.ai/.well-known/*
 host: https://laelaps.ai
 notes: No /.well-known/ discovery documents are published on the only host Laelaps AI operates (laelaps.ai).
-  /robots.txt and /sitemap.xml return 200; /llms.txt returns 404. Recorded absence, not a gap in the probe.
+  /robots.txt and /sitemap.xml return 200; /llms.txt returned 404 on 2026-07-19 and 200 on 2026-10-06. Recorded absence, not a gap in the probe.
 hosts:
 - host: https://laelaps.ai
   documents:

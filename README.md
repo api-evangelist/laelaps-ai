@@ -64,20 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Laelaps AI builds field intelligence for critical assets: LEA, a system that combines autonomous embodied agents, video monitoring agents and sensing systems with a control center layer that turns their data into actionable intelligence for human operators securing and maintaining critical sites.
+Laelaps AI builds field intelligence for critical assets. Its system, LEA, combines autonomous embodied agents (AI-powered robots for site perimeter coverage), video monitoring agents that work on existing camera infrastructure, and fixed and mobile sensing systems under a control center layer that fuses their data into actionable intelligence for human operators; the company says one operator can then protect and operate multiple sites 24/7. Target sites include military bases, power grids, data centers, factories and hospitals, and the control layer supports encrypted, air-gapped on-premises hosting. Founded in 2025 by Dr. Sophia Belser (CEO), Dr. Mania Stamatopoulou (CRO) and Rokas Bendikas (CTO), Laelaps AI is based in Switzerland and operates across Europe; its site lists Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA BIC and NVIDIA Inception as backers. It publishes a corporate website and an llms.txt but no public developer surface - no documentation, API reference, SDKs or machine-readable API artifacts.
 
-- Website: https://laelaps.ai/
-- Legal entity: Laelaps AI Ltd (UK company no. 15375693); based in Switzerland and operating across Europe
-- Founders: Dr. Sophia Belser (CEO), Dr. Mania Stamatopoulou (CRO), Rokas Bendikas (CTO)
-- Backed by: Speedinvest, Expeditions Fund, Florent Venture Partners, Fund F, ESA BIC, NVIDIA Inception
+**Areas:** Company · Artificial Intelligence · Robotics · Autonomous Systems · Security · Surveillance · Computer Vision · Defense · Physical Security
 
-## API surface
+## Laelaps AI on APIs.io
 
-Laelaps AI publishes **no public API** as of 2026-07-19 — no developer portal, documentation,
-API reference, SDKs, CLI, changelog, status page, or machine-readable API description
-(OpenAPI / AsyncAPI / GraphQL) was found. The enrichment pipeline therefore captured
-identity plus what could be honestly probed:
+Everything profiled for Laelaps AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/laelaps-ai/](https://apis.io/providers/laelaps-ai/)** — or go straight to one of the APIs or properties below.
 
-- `security/laelaps-ai-domain-security.yml` — probed TLS/HSTS/DNS posture (TLS 1.3, HSTS 2y, CAA, SPF, DMARC `p=reject`)
-- `well-known/laelaps-ai-well-known.yml` — recorded `/.well-known/` probe (all 404)
-- `llms/laelaps-ai-llms.txt` — the provider's own llms.txt (https://laelaps.ai/llms.txt), saved verbatim 2026-10-06
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Laelaps Ai Domain Security](https://apis.io/security/laelaps-ai/laelaps-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://laelaps.ai/)
+- [Terms of service](https://laelaps.ai/legal.html)
+- [Privacy policy](https://laelaps.ai/privacy.html)
+- [GitHub](https://github.com/LaelapsAI)
+
+## API Evangelist rating
+
+**Kin Score 9.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/laelaps-ai/](https://apis.io/providers/laelaps-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Laelaps AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/laelaps-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
